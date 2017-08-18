@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "WebService.(createIndividual(Individual, (String?, Individual?) -&gt; ()) -&gt; ()).(closure #1):WebService.swift">
+      </ContextState>
+      <ContextState
+         contextName = "IndividualDetailController.viewDidLoad() -&gt; ():IndividualDetailController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.personImageView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Individual.preloadImage(checkIndex : Int, forceRefresh : Bool, finished : (Int) -&gt; ()) -&gt; ():Individual.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "profilePicture">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "IndividualDetailController.(save(Any) -&gt; ()).(closure #1):IndividualDetailController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
