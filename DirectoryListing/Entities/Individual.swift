@@ -48,9 +48,6 @@ class Individual: BaseEntity {
         status <- map["status"]
         available <- map["available"]
         
-        
-        //firstName <- map["firstName"]
-        //lastName <- map["lastName"]
         birthdate <- map["birthdate"]
         //profilePicture <- map["profilePicture"]
         forceSensitive <- map["forceSensitive"]

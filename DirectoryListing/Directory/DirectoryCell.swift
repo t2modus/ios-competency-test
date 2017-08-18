@@ -14,6 +14,9 @@ class DirectoryCell: SwipeTableViewCell {
     
     @IBOutlet var personImageView: UIImageView?
     @IBOutlet var activityIndicator: UIActivityIndicatorView?
+    @IBOutlet var availablility: UIImageView?
+    @IBOutlet var fullName: UILabel?
+    @IBOutlet var status: UILabel?
     
     var individual : Individual?
     var individualIndex : Int = -1
@@ -47,6 +50,12 @@ class DirectoryCell: SwipeTableViewCell {
         
         tempPersonImageView.image = nil
         tempPersonImageView.isHidden = true
+        
+        availablility?.image = tempIndividual.available ? #imageLiteral(resourceName: "available") : #imageLiteral(resourceName: "unavailable")
+        
+        fullName?.text = "\(tempIndividual.first_name) \(tempIndividual.last_name)"
+        
+        status?.text = "\(tempIndividual.status)"
         
         if (tempIndividual.img != "") {
             activityIndicator?.startAnimating()
